@@ -1,0 +1,38 @@
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  .articles
+  {
+      font-weight: 15px;
+      font-family: 'Lucida Sans';
+      order:1;
+  }
+  #main > nav {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    text-align: center;
+    order: 2;
+  }
+  p{
+      text-align: start;
+      font-size: 17px;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 10vh;
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
