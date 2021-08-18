@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--title of page -->
+        <title>Gallery</title>
+        <link rel="icon" href="../assets/fav.png" />
+    </head>
+    <style>
+        body{
+           background-color: rgb(22,22,22);
+        }
+        .header{
+        height: 38px;
+        padding: 12px;
+        display: flex;
+        justify-content:center;
+        color: rgb(169,169,169);
+        background-color: rgb(40,40,42);
+        } 
+        .row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+        flex: 33%;
+        max-width: 32%;
+        padding: 0 4px;
+        }
+
+        .column img {
+        margin-top: 10px;
+        width: 100%;
+        box-shadow: 3px 5px 8px 0px rgba(0,0,0,0.3); 
+        }
+    </style>
+    <body>
+        <h1 class="header">Gallery</h1>
+        <div class="row">
+            <div class="column">
+                <img src='../assets/aman-shrestha-z6bIIeQDHY0-unsplash.jpg' alt="Sample Photo" >
+                <img src='../assets/denis-harschi-umj2W38UOmc-unsplash.jpg' alt="Sample Photo">
+                <img src='../assets/joshua-rawson-harris-66u1F4abOBQ-unsplash.jpg' alt="Sample Photo">
+            </div>
+            <div class="column">
+                <img src='../assets/joshua-rawson-harris-TYdYrjdpSZ8-unsplash.jpg' alt="Sample Photo">
+                <img src='../assets/karim-manjra-4dPJQ6VsXjA-unsplash.jpg' alt="Sample Photo">
+                <img src='../assets/warren-wong-bh4LQHcOcxE-unsplash.jpg' alt="Sample Photo">
+            </div>
+            <div class="column">
+                <img src="../assets/zach-vessels-zlYUCmArB38-unsplash.jpg" alt="Sample Photo">
+                <img src= "../assets/zane-lee--zqe55fIOq8-unsplash.jpg" alt="Sample Photo">
+                <img src="../assets/zane-lee-He-72sq7vFM-unsplash.jpg" alt="Sample Photo">
+            </div>
+        </div>   
+    </body>
